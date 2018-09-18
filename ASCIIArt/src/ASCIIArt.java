@@ -13,5 +13,65 @@
  * @author Mr. Rasmussen 
  *
  */
+public class ASCIIArt {
+	public static void main(String[] args) {
+		System.out.println("A chess piece: The King");
+		System.out.println();
+		
+		crossHead();
+		outerLines();
+		topCurves();
+		middleLines();
+		bottomCurves();
+		outerLines();
+		
+		
+	}
+	public static void crossHead() {
+		System.out.println("\t        _______                 ");
+		System.out.println("\t       |\\/\\/\\/\\|            ");
+		System.out.println("\t     __|/\\/\\/\\/|__           ");
+		System.out.println("\t    |/\\/\\/\\/\\/\\/\\/|       ");
+		System.out.println("\t    |\\/\\/\\/\\/\\/\\/\\|      ");
+		System.out.println("\t\t|/\\/\\/|                     ");
+		System.out.println("\t      |\\/\\/\\/\\/\\|          ");	
+		System.out.println("\t ____|\\/\\/\\/\\/\\/\\|____    ");
 
+	}
+	public static void topCurves() {
+		System.out.println("\t (\\/\\/\\/\\/\\/\\/\\/\\/\\/\\) ");
+		System.out.println("\t (/\\/\\/\\/\\/\\/\\/\\/\\/\\/)  ");
+		System.out.println("\t (\\/\\/\\/\\/\\/\\/\\/\\/\\/\\) ");
+	}
+	public static void bottomCurves() {
+		System.out.println("\t (|/\\/\\/\\/\\/\\/\\/\\/\\/|) ");
+		System.out.println("\t  )|/\\/\\/\\/\\/\\/\\/\\/|(   ");
+		System.out.println("\t (|/\\/\\/\\/\\/\\/\\/\\/\\/|) ");
+		System.out.println("\t  )|/\\/\\/\\/\\/\\/\\/\\/|(   ");
+		System.out.println("\t (|/\\/\\/\\/\\/\\/\\/\\/\\/|) ");
+
+
+	}
+	public static void outerLines() {
+		System.out.println("\t|\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\| "); 
+		System.out.println("\t|/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/|  ");
+		System.out.println("\t|\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\| "); 
+
+	}
+	public static void middleLines() {
+		
+		System.out.println("\t  |\\/\\/\\/\\/\\/\\/\\/\\/\\| ");
+		System.out.println("\t  |/\\/\\/\\/\\/\\/\\/\\/\\/|  ");
+		System.out.println("\t  |\\/\\/\\/\\/\\/\\/\\/\\/\\| ");
+		System.out.println("\t  |/\\/\\/\\/\\/\\/\\/\\/\\/|  ");
+		System.out.println("\t  |\\/\\/\\/\\/\\/\\/\\/\\/\\| ");
+		System.out.println("\t  |/\\/\\/\\/\\/\\/\\/\\/\\/|  ");
+		System.out.println("\t  |\\/\\/\\/\\/\\/\\/\\/\\/\\| ");
+		System.out.println("\t  |/\\/\\/\\/\\/\\/\\/\\/\\/|  ");
+		System.out.println("\t  |\\/\\/\\/\\/\\/\\/\\/\\/\\| ");
+		System.out.println("\t  |/\\/\\/\\/\\/\\/\\/\\/\\/|  ");
+
+	}
+
+}
 // YOUR CODE GOES HERE :)
